@@ -161,9 +161,73 @@ nav #icons {
 .header {
     display: flex;
     height: 100vh;
+    gap: 3rem;
     width: 100%;
-    background-image: url('../pic6.jpg');
+    background-image: url('../pic3.jpg');
+    /* filter: blur(4px);
+    -webkit-filter: blur(4px); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.text {
+    margin-top: 0;
+    line-height: 30px;
+
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.text h3{
+    font-size: 6rem;
+    color: #34495e;
+}
+
+.text h6 {
+    font-size: 3.8rem;
+    padding-top: 0;
+    margin-top: 0rem;
+    color: #3498db;
+}
+
+
+.text p {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    margin-top: -2rem;
+    line-height: 60px;
+}
+
+.text button {
+    background: #3498db;
+    padding: 1rem;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.text button:hover {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #3498db;
 }
