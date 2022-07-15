@@ -12,6 +12,7 @@ body {
     align-items: center;
     height: 9vh;
     text-align: center;
+    position: sticky;
     color: #fff;
     background: #34495e;
     padding: 0;
@@ -157,40 +158,12 @@ nav #icons {
 }
 
 
-/* Media queries */
-
-/* @media (max-width: 1048px) {
-    .navbar .navbar-logo h1 {
-        font-size: 35px;
-        padding-left: 0px;
-    }
-
-    .navbar .navbar-links ul {
-        margin-right: 20px;
-    }
-
-    .navbar .navbar-links li {
-        font-size: 18px;
-    }
+.header {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../pic6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
-@media (max-width: 909px) {
-    .navbar .navbar-logo h1 {
-        margin-left: -20rem;
-        padding-left: 0;
-    }
-    nav #icons {
-        display: block;
-        float: right;
-        margin-right: -20rem;
-    }
-    .navbar .navbar-links {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #2f3640;
-        margin-top: 0;
-        left: 0;
-        text-align: center;
-    }
-} */
