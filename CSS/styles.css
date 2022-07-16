@@ -423,6 +423,9 @@ p#yearly {
 }
 
 p#report {
-    color: #000;
+    color: #fff;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 50px;
     font-size: 1.5rem;
 }
