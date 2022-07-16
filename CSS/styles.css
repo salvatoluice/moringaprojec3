@@ -2,6 +2,7 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
@@ -263,6 +264,72 @@ nav #icons {
 
 }
 
+
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.profile .p-image {
+    flex: 1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.p-image img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 18%;
+    border-bottom-left-radius: 18%;
+}
+
+.profile .p-content {
+    flex: 1;
+    margin-left: 0;
+}
+
+.p-content h1 {
+    color: #000;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.p-content h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #000;
+}.p-content span {
+    font-size: 1.9rem;
+    color: #3498db;
+    font-weight: 400;
+}
+
+.p-content h3 {
+    color: #34495e;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.p-content h3 > small {
+    color: #3498db;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+
+@media (max-width: 1200px) {
+    .profile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile .p-content {
+        margin-left: 2rem;
+    }
+}
 
 .production {
     background: #000;
