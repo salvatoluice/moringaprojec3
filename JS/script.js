@@ -23,7 +23,7 @@ const obj = {
 
 const myObject = {
     shadeA:"1. Your Production in Shade A is " + shade1 +  " litres per day",
-    shadeB:"2. Your Production in Shade A is " + shade2 +  " litres per day",
+    shadeB:"2. Your Production in Shade B is " + shade2 +  " litres per day",
     shadeC: "3. Your Production in Shade C is " + shade3 + " litres per day",
     shadeD: "4. Your Production in Shade D is " + shade4 + " litres per day",
     total: function() {
@@ -40,7 +40,7 @@ const myObject = {
 
   //function to calculate daily income
   function daily_income(litres){
-    return litres * price_per_litre;
+    return "Your daily income is Ksh. " + litres * price_per_litre;
   }
 
 

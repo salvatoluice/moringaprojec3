@@ -301,3 +301,49 @@ p#demo {
     padding-top: 2rem;
     line-height: 50px;
 }
+
+.income {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 3rem;
+    background: whitesmoke;
+}
+
+.income .image {
+    margin-left: 7rem;
+    flex: 1;
+}
+
+.image img {
+    width: 650px;
+    height: 500px;
+    border: 2px solid #3498db;
+    border-radius: 18px;
+}
+
+.income-content {
+    flex: 1;
+}
+
+.income-content h2 {
+    font-size: 3.8rem;
+    color: #3498db;
+}
+
+.income-content h4 {
+    color: #000;
+    font-size: 1.8rem;
+}
+
+.reports {
+    background: #34495e;
+    width: 50%;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+}
+
+p#income {
+    color: #fff;
+    margin-left: 1rem;
+}
