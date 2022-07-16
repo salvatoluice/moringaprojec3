@@ -40,8 +40,23 @@ const myObject = {
 
   //function to calculate daily income
   function daily_income(litres){
-    return "Your daily income is Ksh. " + litres * price_per_litre;
+    return "a). Your daily income is Ksh. " + litres * price_per_litre;
   }
 
 
+  //function to calculate weekly income
+  function weekly_income(litres) {
+    return "b). Your weekly income is Ksh. " + litres * price_per_litre * 7;
+  }
+
+  //function to calculate yearly income
+  function yearly_income(litres) {
+    return "c). Your yearly income is Ksh. " + litres * price_per_litre * 365;
+  }
+
   document.getElementById("income").innerHTML = window.daily_income(1876);
+  document.getElementById("weekly").innerHTML = window.weekly_income(1876);
+  document.getElementById("yearly").innerHTML = window.yearly_income(1876);
+
+
+

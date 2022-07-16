@@ -343,7 +343,28 @@ p#demo {
     border-radius: 8px;
 }
 
+.reports h5 {
+    color: #3498db;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.9rem;
+}
+
 p#income {
     color: #fff;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+p#weekly {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+p#yearly {
+    color: #fff;
+    font-size: 1.5rem;
     margin-left: 1rem;
 }
