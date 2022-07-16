@@ -670,3 +670,12 @@ footer {
 .section3 ul li:hover {
     color: #fff;
 }
+
+
+@media (max-width: 650px) {
+    .main_footer {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
