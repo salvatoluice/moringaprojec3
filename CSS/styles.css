@@ -391,3 +391,9 @@ p#yearly {
         margin-left: 2rem;
     }
 }
+
+
+p#report {
+    color: #000;
+    font-size: 2rem;
+}

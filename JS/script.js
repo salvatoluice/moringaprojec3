@@ -60,3 +60,51 @@ const myObject = {
 
 
 
+//function to calculate Monthly income
+let litres = 1876;
+
+
+
+const myobj = {
+  jan: function(){
+    return "Your income for January is Ksh. " + litres * price_per_litre * 31;
+  },
+  feb: function(){
+    return "Your income for February is Ksh. " + litres * price_per_litre * 29;
+  },
+  mar: function(){
+    return "Your income for March is Ksh. " + litres * price_per_litre * 31;
+  },
+  apr: function(){
+    return "Your income for April is Ksh. " + litres * price_per_litre * 30;
+  },
+  may: function(){
+    return "Your income for May is Ksh. " + litres * price_per_litre * 31;
+  },
+  jun: function(){
+    return "Your income for June is Ksh. " + litres * price_per_litre * 29;
+  },
+  jul: function(){
+    return "Your income for July is Ksh. " + litres * price_per_litre * 31;
+  },
+  aug: function(){
+    return "Your income for August is Ksh. " + litres * price_per_litre * 30;
+  },
+  sep: function(){
+    return "Your income for September is Ksh. " + litres * price_per_litre * 31;
+  },
+  oct: function(){
+    return "Your income for October is Ksh. " + litres * price_per_litre * 29;
+  },
+  nov: function(){
+    return "Your income for November is Ksh. " + litres * price_per_litre * 31;
+  },
+  dec: function(){
+    return "Your income for December is Ksh. " + litres * price_per_litre * 30;
+  },
+  total: function(){
+    return this.jan() +"<br />" + this.feb() + "<br />" + this.mar() + "<br />" + this.apr() + "<br />" + this.may() + "<br />" + this.jun() + "<br />" + this.jul() + "<br />" + this.aug() + "<br />" + this.sep() + "<br />" + this.oct() + "<br />" + this.nov() + "<br />" + this.dec(); 
+  }
+}
+
+document.getElementById("report").innerHTML = myobj.total();
