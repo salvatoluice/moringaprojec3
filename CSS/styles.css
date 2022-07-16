@@ -180,14 +180,15 @@ nav #icons {
     margin-top: 0;
     line-height: 30px;
 
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4); 
     color: white;
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
     top: 50%;
     left: 50%;
+    margin-top: 3rem;
     transform: translate(-50%, -50%);
     z-index: 1;
     width: 80%;
@@ -260,4 +261,43 @@ nav #icons {
 
 @media (max-width: 650px) {
 
+}
+
+
+.production {
+    background: #000;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.content {
+    width: 60%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background: #2f3640;
+    border-radius: 7px;
+    margin-top: 4rem;
+    border: 2px solid #fff;
+}
+
+.production h1 {
+    font-size: 4rem;
+    padding-top: 4rem;
+}
+
+.production p {
+    font-size: 2rem;
+    color: #3498db;
+}
+
+p#demo {
+    color: #fff;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    line-height: 50px;
 }
