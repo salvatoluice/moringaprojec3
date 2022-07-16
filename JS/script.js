@@ -32,3 +32,16 @@ const myObject = {
   }
   document.getElementById("demo").innerHTML = myObject.total(); 
   document.getElementById("total").innerHTML = obj.total();
+
+
+  //variable for brookside's constant buying rate
+  let price_per_litre = 20;
+
+
+  //function to calculate daily income
+  function daily_income(litres){
+    return litres * price_per_litre;
+  }
+
+
+  document.getElementById("income").innerHTML = window.daily_income(1876);
