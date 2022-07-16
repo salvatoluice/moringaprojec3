@@ -392,8 +392,37 @@ p#yearly {
     }
 }
 
+.report {
+    width: 70%;
+    background: #3498db;
+    margin: auto;
+    border: 2px solid #34495e;
+    border-radius: 9px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.report_content {
+    margin-left: 5rem;
+}
+
+.report_content h2 {
+    color: #34495e;
+    font-size: 2.6rem;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.report_content h5 {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    color: #34495e;
+}
 
 p#report {
     color: #000;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
