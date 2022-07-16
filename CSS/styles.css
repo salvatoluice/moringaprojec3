@@ -368,3 +368,26 @@ p#yearly {
     font-size: 1.5rem;
     margin-left: 1rem;
 }
+
+@media (max-width: 1200px) {
+    .income {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1048px) {
+    .image {
+        margin-left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .image img {
+        margin-left: 0;
+        width: 400px;
+        height: 300px;
+    }
+    .income-content {
+        margin-left: 2rem;
+    }
+}
