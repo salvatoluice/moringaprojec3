@@ -496,3 +496,87 @@ p#report {
     line-height: 50px;
     font-size: 1.5rem;
 }
+
+
+.analysis {
+    display: flex;
+    flex-direction: column;
+}
+
+.analysis_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.best {
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex: 1;
+    gap: 3rem;
+    margin-left: 4rem;
+}
+
+.best1 {
+    width: 400px;
+    height: 700px;
+    background: #2f3640;
+    border: 2px solid #3498db;
+    border-radius: 9px;
+    /* gap: 2rem; */
+}
+
+.best1 img {
+    width: 400px;
+    height: 500px;
+}
+
+.best1 h4 {
+    color: #3498db;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    font-weight: 700;
+}
+
+.best1 p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.analysis .rights {
+    flex: 1;
+    margin-left: 2rem;
+}
+
+.rights .tips {
+    display: flex;
+    flex-direction: column;
+}
+
+.tips h3 {
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.8rem;
+    color: #3498db;
+}
+
+.tips p {
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    color: #3498db;
+}
+
+.tips span {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 40px;
+}
