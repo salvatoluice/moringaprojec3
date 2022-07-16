@@ -580,3 +580,22 @@ p#report {
     font-style: italic;
     line-height: 40px;
 }
+
+
+@media (max-width: 1200px) {
+    .analysis_content {
+        display: flex;
+        flex-direction: column;
+    }   
+}
+
+@media (max-width: 1048px) {
+    .analysis_content {
+        display: flex;
+        flex-direction: column;
+    }   
+    .best {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
